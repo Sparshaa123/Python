@@ -1,13 +1,12 @@
-AIM:Write a Program to implement control flow statements and
-looping statements in python.
+AIM:Write a Program to implement control flow statements and looping statements in python.
 
 ALGORITHM:
-Step1- Start
-Step2- Take all the inputs
-Step3- Calculate the batting strike rate and bowling economy rate
-Step4- Using if-elif-else print the batting and bowling performance
-Step5- Using if-elif-else print the overall performance
-Step6- Stop
+Step1: Start
+Step2: Take all the inputs
+Step3: Calculate the batting strike rate and bowling economy rate
+Step4: Using if-elif-else print the batting and bowling performance
+Step5: Using if-elif-else print the overall performance
+Step6: Stop
 
 CODE:
 runs_scored=int(input("Enter the runs scored:"))
