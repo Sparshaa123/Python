@@ -1,5 +1,11 @@
 AIM:Write a program to demonstrate list and related functions in python
 
+ALGORITHM:
+Step1: Create a list
+Step2: Perform all the list functions
+Step3: Print the output of each function
+Step4: Stop
+
 CODE:
 n=[1,5,8,9,7,2,4,3]
 print("Original list:",n)
