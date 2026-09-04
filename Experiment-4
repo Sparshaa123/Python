@@ -1,0 +1,38 @@
+AIM:Write a program to demonstrate list and related functions in python
+
+CODE:
+n=[1,5,8,9,7,2,4,3]
+print("Original list:",n)
+print("Length of list:",len(n))
+n.append(6)
+print("List after append:",n)
+n.insert(2,10)
+print("List after insertion:",n)
+n.remove(9)
+print("List after remove:",n)
+n.pop()
+print("List after pop:",n)
+n.sort()
+print("Sorted list:",n)
+n.reverse()
+print("Reversed list:",n)
+a=n.copy()
+print("Copied list:",a)
+n.extend([20,30])
+print("Extended list:",n)
+print("Maximum value:",max(n))
+print("Minimum value:",min(n))
+
+OUTPUT:
+Original list: [1, 5, 8, 9, 7, 2, 4, 3]
+Length of list: 8
+List after append: [1, 5, 8, 9, 7, 2, 4, 3, 6]
+List after insertion: [1, 5, 10, 8, 9, 7, 2, 4, 3, 6]
+List after remove: [1, 5, 10, 8, 7, 2, 4, 3, 6]
+List after pop: [1, 5, 10, 8, 7, 2, 4, 3]
+Sorted list: [1, 2, 3, 4, 5, 7, 8, 10]
+Reversed list: [10, 8, 7, 5, 4, 3, 2, 1]
+Copied list: [10, 8, 7, 5, 4, 3, 2, 1]
+Extended list: [10, 8, 7, 5, 4, 3, 2, 1, 20, 30]
+Maximum value: 30
+Minimum value: 1
